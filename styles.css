@@ -11,6 +11,14 @@ header, footer {
     padding: 15px 15vw;
 }
 
+footer {
+    text-align: center;
+}
+
+.information, .quote, .bottom {
+    padding: 0 15vw;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
