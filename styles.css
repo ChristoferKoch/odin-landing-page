@@ -1,15 +1,14 @@
-html {
-    font-family: Roboto, sans-serif;
-}
-
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 header, footer {
     background-color: #1f2937;
+    padding: 15px 15vw;
 }
 
 h1 {
@@ -22,6 +21,15 @@ h3 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+h4 {
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 blockquote {
@@ -37,15 +45,50 @@ blockquote {
     font-weight: 700;
 }
 
-.header-secondary {
+.secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 button, .call-to-action {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+button {
+    padding: 5px 18px;
+    border: 0;
 }
 
 .quote {
     background-color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
+}
+
+.hero {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-img {
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    flex: 1;
 }
