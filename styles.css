@@ -135,6 +135,7 @@ blockquote {
     display: flex;
     padding-top: 35px;
     padding-bottom: 70px;
+    gap: 15px;
 }
 
 .hero-text {
