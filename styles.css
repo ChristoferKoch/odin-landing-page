@@ -144,7 +144,7 @@ blockquote {
 
 .hero-img {
     border: 3px solid black;
-    height: 100px;
+    height: auto;
     width: 200px;
     align-self: center;
     flex: 1;
